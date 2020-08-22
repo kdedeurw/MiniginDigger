@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Components">
+      <UniqueIdentifier>{6c60651c-a097-4e23-b422-a5925b35864d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Input">
+      <UniqueIdentifier>{cb11f12a-ecdb-402e-9cae-25cda2c2ecbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Input\Commands">
+      <UniqueIdentifier>{13898cb7-cc5a-4a78-bf1a-95e8cbb31fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Input\Managers">
+      <UniqueIdentifier>{10a62688-2e8e-4678-a98f-2e33095a9756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Memory">
+      <UniqueIdentifier>{0fb4af3d-cf37-4ad8-8b68-364f14f0b649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Memory\Allocators">
+      <UniqueIdentifier>{57f9ea53-3675-41fd-98b8-d9ff4b0ad4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Math">
+      <UniqueIdentifier>{35d68d47-bfd1-4807-921f-7ffca22a2c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\General">
+      <UniqueIdentifier>{0b1b7fc5-db8e-4cfa-896e-07e4b3a67b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Resources">
+      <UniqueIdentifier>{1d9c1162-fb47-4f02-89ed-cc5b243bab93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Resources\Textures">
+      <UniqueIdentifier>{ea7362c9-75eb-47c0-a0d3-321846365ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Base Files">
+      <UniqueIdentifier>{e2b06ab2-a767-4cb9-843b-bf8b870b3f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core Files\Rendering">
+      <UniqueIdentifier>{8bc35543-ceb0-4f6b-8272-789cb13a5040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Texture2DComponent.cpp">
+      <Filter>Game Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsComponent.cpp">
+      <Filter>Game Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSComponent.cpp">
+      <Filter>Game Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Commands.cpp">
+      <Filter>Game Files\Input\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Game Files\Input\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerListener.cpp">
+      <Filter>Game Files\Input\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardMouseListener.cpp">
+      <Filter>Game Files\Input\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Game Files\Input\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalMemoryPools.cpp">
+      <Filter>Core Files\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleLinkedListAllocator.cpp">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleLinkedListAllocator.cpp">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="StackAllocator.cpp">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMath.cpp">
+      <Filter>Core Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Core Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Core Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniginPCH.cpp">
+      <Filter>Core Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Core Files\Resources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Core Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Game Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniginGame.cpp">
+      <Filter>Game Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Game Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Core Files\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Core Files\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TextObject.cpp">
+      <Filter>Game Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>Core Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>Game Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Core Files\Resources\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBody.cpp">
+      <Filter>Game Files\Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Core Files\General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Globals.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Game Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components.h">
+      <Filter>Game Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSComponent.h">
+      <Filter>Game Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DComponent.h">
+      <Filter>Game Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsComponent.h">
+      <Filter>Game Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands.h">
+      <Filter>Game Files\Input\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Game Files\Input\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalInput.h">
+      <Filter>Game Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerListener.h">
+      <Filter>Game Files\Input\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardMouseListener.h">
+      <Filter>Game Files\Input\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Game Files\Input\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalMemoryPools.h">
+      <Filter>Core Files\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleLinkedListAllocator.h">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomHeapMemoryAllocators.h">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryAllocator.h">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleLinkedListAllocator.h">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="StackAllocator.h">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryOverrides.h">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMath.h">
+      <Filter>Core Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Core Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniginPCH.h">
+      <Filter>Core Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Core Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedSizeAllocator.h">
+      <Filter>Core Files\Memory\Allocators</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Core Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Game Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniginGame.h">
+      <Filter>Game Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonPtr.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonRef.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowInfo.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="General.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Game Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Game Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Core Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Core Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TextObject.h">
+      <Filter>Game Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>Game Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Core Files\Resources\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody.h">
+      <Filter>Game Files\Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderFlip.h">
+      <Filter>Core Files\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryReader.h">
+      <Filter>Core Files\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Core Files\General</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
