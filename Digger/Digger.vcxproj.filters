@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{b63f1135-f02c-4e4f-b528-9976e16deb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{52890c06-7654-40b8-aa2f-a0c1a02c8d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AI">
+      <UniqueIdentifier>{8a78f2dd-9f2d-44fb-b8d6-9668b632f134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{5ceb472a-bb1f-4031-8116-af84ae331bc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CharacterController.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniginPCH.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelParser.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gem.cpp">
+      <Filter>Header Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Header Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Header Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="DiggerGameObserver.cpp">
+      <Filter>Header Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniPhysicsManager.cpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniPhysicsComponent.cpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionFunctionality.cpp">
+      <Filter>Header Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="NobbinAI.cpp">
+      <Filter>Header Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="HoleNode.cpp">
+      <Filter>Header Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="HoleManager.cpp">
+      <Filter>Header Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="catch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniginPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Gem.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="DiggerGameObserver.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniPhysicsManager.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionFunctionality.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderMasks.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="NobbinAI.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniPhysicsComponent.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterController.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelParser.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HoleNode.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="HoleManager.h">
+      <Filter>Header Files\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
